@@ -7,7 +7,7 @@ A backend NodeJS API implementation for an outdoor activity app that includes ro
 - Make sure node is installed on system
 - Navigate to the folder on the cmd or terminal
 - Run `npm install` to install project dependencies
-- Add your mongo URI in 'config/keys.js'
+- Add your mongo URI in `config/keys.js` file
 - Check and make sure MongoDB is up and running
 - Run `npm run server` to run the project using nodemon
 - Or run `npm run start` to run the project using node
