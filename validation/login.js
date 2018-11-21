@@ -19,10 +19,6 @@ module.exports = function validateLoginInput(data) {
     errors.password = 'Password field is required';
   }
 
-  if (Validator.isEmpty(data.role)) {
-    errors.role = 'User role field is required';
-  }
-
   return {
     errors,
     isValid: isEmpty(errors)
